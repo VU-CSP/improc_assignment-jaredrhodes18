@@ -9,7 +9,7 @@ You can [download FIJI here](https://fiji.sc)
 #### *Task 1:*
 Answer the following questions about the [Phase contrast](image_files/PhaseContrast.tif) and [Differential interference contrast](image_files/DifferentialInterference.tif) images:
 Q1) What is the maximum intensity value in the [Differential interference contrast](image_files/DifferentialInterference.tif) file? 
-A1) Put your answer here.  
+A1) Max intensity is 155 
 
 Q2) What are the dimensions of the [Phase contrast](image_files/PhaseContrast.tif) file?  
 A2) The dimensions are (314, 226, 8-bit) 
@@ -35,7 +35,7 @@ Also save the resultant "Count Mask" image file with the name "Count_Mask_229461
 ![](image_files/Count_Mask_22946173.tif)  
 
 Q4) How many particles were detected?  
-A4) Put your answer here.  
+A4) 1417 particles were detected   
 
 You will do a first-pass assessment of the segmentation output by analyzing the size of the particles using Python...  
 
