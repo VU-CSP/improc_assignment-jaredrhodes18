@@ -9,13 +9,13 @@ You can [download FIJI here](https://fiji.sc)
 #### *Task 1:*
 Answer the following questions about the [Phase contrast](image_files/PhaseContrast.tif) and [Differential interference contrast](image_files/DifferentialInterference.tif) images:
 Q1) What is the maximum intensity value in the [Differential interference contrast](image_files/DifferentialInterference.tif) file? 
-A1) Max intensity is 155 
+A1) Max intensity is 255 *but really 254 accorinding to histogram
 
 Q2) What are the dimensions of the [Phase contrast](image_files/PhaseContrast.tif) file?  
 A2) The dimensions are (314, 226, 8-bit) 
 
 Q3) Which image has greater dynamic range of pixel intensities? Phase or DiffInt?  
-A3) The images have equal dynamic ranges of pixel intensities. They both are 8-bit and therefore have ranges from 0-(2^8 -1) = 0 - 255
+A3) Phase technically has a greater range of 6 to 252 when looking at the histograms; while DiffInt has a range of 20 to 255; However, as the images are both 8-bit they should have equal dynamic ranges of pixel intensities. 
 
 #### *Task 2:*
 Open the file [Fluorescence_composite.tif](image_files/Fluorescence_composite.tif) and convert all the signal in the red channel to the blue channel, export the file as a JPG and upload it to this repository in the [image_files](image_files) directory with the name "Composite.jpg".  
